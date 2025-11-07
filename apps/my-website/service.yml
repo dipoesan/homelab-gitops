@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-website
+  namespace: my-website
+  labels:
+    app: my-website
+spec:
+  selector:
+    app: my-website
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+  type: ClusterIP
