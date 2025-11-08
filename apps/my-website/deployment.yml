@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: website
-        image: ghcr.io/dipoesan/my-website:main-30b350c
+        image: ghcr.io/dipoesan/my-website:main-9bd508e
         ports:
         - containerPort: 80
         resources:
